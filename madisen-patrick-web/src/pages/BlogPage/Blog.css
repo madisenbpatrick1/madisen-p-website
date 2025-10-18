@@ -1,0 +1,101 @@
+.blog-page {
+  background: linear-gradient(135deg, #000000 0%, #2b0011 40%, #ff3b81 100%);
+  color: #fff;
+  min-height: 100vh;
+  padding-bottom: 4rem;
+  font-family: "Press Start 2P", monospace;
+  text-align: center;
+  transition: background 2s ease;
+
+}
+
+.blog-header {
+  text-align: center;
+  padding: 3rem 1rem 2rem;
+}
+
+.blog-title {
+  font-size: 2.8rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+  color: #ff3b81;
+  text-shadow: 0 0 10px rgba(255, 59, 129, 0.6);
+}
+
+.blog-subtitle {
+  font-size: 0.8rem;
+  color: #bbb;
+  margin-top: 1rem;
+}
+
+.blog-grid {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  padding: 0 2rem 4rem;
+  justify-content: center;
+  max-width: 1100px; /* keeps it from stretching full screen */
+  margin: 0 auto; /* centers the grid */
+
+}
+/* 2 columns for medium screens */
+@media (min-width: 700px) {
+  .blog-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+✅ Cap the number of visible columns to 3
+@media (min-width: 1000px) {
+  .blog-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.blog-card {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 12px;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-decoration: none;
+  color: #fff;
+}
+
+.blog-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 0 20px rgba(255, 182, 230, 0.3);
+}
+
+.blog-image-wrapper {
+  position: relative;
+  overflow: hidden;
+}
+
+.blog-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  transition: transform 0.4s ease;
+}
+
+.blog-card:hover .blog-image {
+  transform: scale(1.05);
+}
+
+.blog-info {
+  padding: 1.2rem;
+}
+
+.blog-card-title {
+  font-size: 1.4rem;
+  font-weight: 600;
+  padding: 1.2rem;
+  color: #fff;
+  transition: color 0.3s ease;
+}
+
+.blog-card-snippet {
+  font-size: 0.95rem;
+  color: #ccc;
+  margin-top: 0.4rem;
+}

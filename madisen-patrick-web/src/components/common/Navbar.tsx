@@ -4,7 +4,7 @@ import './Navbar.css'; // import the CSS file
 
 export default function Navbar() {
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark" style={{ backgroundColor: '#330029' }}>
+    <nav className="navbar navbar-expand-lg navbar-dark" style={{ backgroundColor: '#000000' }}>
       <div className="container">
         {/* Logo / Brand */}
         <Link to="/" className="navbar-brand fs-3">
