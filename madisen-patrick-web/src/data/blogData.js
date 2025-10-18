@@ -1,8 +1,11 @@
 export default [
   {
     id: "parable-of-the-sower",
-    title: "Parable of the Sower – A Vision for Our Future",
+    title: "Parable of the Sower by Octavia E. Butler",
+    subtitle: "A Vision for Our Future",
     image: "/images/blog/parable-of-the-sower-pic.jpg",
+    date:"October 2025",
+    cover: "/images/blog/parable-of-the-sower-cover.jpg",
     snippet:
       "Exploring how generational stories shape identity and resilience...",
     content: `
@@ -15,8 +18,11 @@ export default [
   },
   {
     id: "first-lie-wins",
-    title: "First Lie Wins - The Art of Deception",
+    title: "First Lie Wins by Ashley Elston",
+    subtitle: "The Art of Deception",
+    date: "October 2025",
     image: "/images/blog/first-lie-wins-pic.jpg",
+    cover: "/images/blog/first-lie-wins-cover.jpg",
     snippet:
       "Thriller novel that delves into the psychology of deceit and trust...",
     content: `

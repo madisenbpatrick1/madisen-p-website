@@ -7,7 +7,7 @@ export default function Navbar() {
     <nav className="navbar navbar-expand-lg navbar-dark" style={{ backgroundColor: '#000000' }}>
       <div className="container">
         {/* Logo / Brand */}
-        <Link to="/" className="navbar-brand fs-3">
+        <Link to="/" className="mbp-logo fs-3">
           MBP
         </Link>
 
