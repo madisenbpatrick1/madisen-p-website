@@ -7,6 +7,7 @@
   text-align: center;
   transition: opacity 1s ease;
   opacity: 0;
+
 }
 
 .fade-in {
@@ -40,6 +41,7 @@
   justify-content: center;
   max-width: 1100px; /* keeps it from stretching full screen */
   margin: 0 auto; /* centers the grid */
+
 }
 /* 2 columns for medium screens */
 @media (min-width: 700px) {
@@ -48,6 +50,7 @@
   }
 }
 
+✅ Cap the number of visible columns to 3
 @media (min-width: 1000px) {
   .blog-grid {
     grid-template-columns: repeat(3, 1fr);
