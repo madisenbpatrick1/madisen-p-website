@@ -7,7 +7,7 @@ Built with React, this site brings together my love for design, storytelling, an
 
 ## 🖥️ Overview  
 
-MBP Original is a responsive, multi-page React application designed to showcase:  
+**MBP Original** is a responsive, multi-page React application designed to showcase:  
 - 🎬 **Videos** — Embedded travel and lifestyle content from my YouTube channel  
 - 📝 **Blog** — Book essays and reflections with a magazine-inspired layout  
 - 🧠 **Code** — A space for sharing programming projects and experiments  
@@ -23,7 +23,7 @@ MBP Original is a responsive, multi-page React application designed to showcase:
 |-----------|--------|
 | **Frontend Framework** | React (Vite or CRA) |
 | **Language** | TypeScript |
-| **Styling** | CSS3 + custom animations |
+| **Styling** | CSS3 + Custom Animations |
 | **Routing** | React Router |
 | **Design Aesthetic** | Retro pixel / pink glow on black theme |
 | **Components** | Reusable hooks (`useFade`), modular components (`Navbar`, Cards, Layouts) |
@@ -31,45 +31,54 @@ MBP Original is a responsive, multi-page React application designed to showcase:
 ---
 
 ## 🧩 Project Structure  
-src/
-┣ assets/ # images, icons, and brand visuals
-┣ components/ # reusable UI components
-┃ ┗ common/ # shared elements like Navbar
-┣ pages/ # main pages (Home, Blog, Videos, AboutMe, etc.)
-┣ hooks/ # custom React hooks (e.g. useFade)
-┣ data/ # static data (blog posts, video lists, etc.)
-┗ App.tsx # main router and layout entry point
 
+```
+src/
+┣ assets/          # images, icons, and brand visuals  
+┣ components/      # reusable UI components  
+┃ ┗ common/        # shared elements like Navbar  
+┣ pages/           # main pages (Home, Blog, Videos, AboutMe, etc.)  
+┣ hooks/           # custom React hooks (e.g., useFade)  
+┣ data/            # static data (blog posts, video lists, etc.)  
+┗ App.tsx          # main router and layout entry point  
+```
 
 ---
 
 ## ✨ Features  
 
-- Smooth **fade-in/fade-out** transitions across pages  
+- Smooth **fade-in/fade-out transitions** across pages  
 - Fully responsive layout with **mobile-friendly navigation**  
 - Cinematic **pink-glow aesthetic** consistent across all pages  
 - Organized using **software engineering principles** (components, hooks, data separation)  
-- Modular and scalable structure for easy feature expansion  
+- Modular and scalable structure for **easy feature expansion**  
 
 ---
 
 ## 🚀 Getting Started  
 
-### 1️⃣ Clone the repo  
+### 1️⃣ Clone the repository  
 ```bash
 git clone https://github.com/<your-username>/mbp-original.git
 cd mbp-original
+```
 
-### 2 Install Dependencies 
-
+### 2️⃣ Install dependencies  
+```bash
 npm install
+```
+
+### 3️⃣ Run the development server  
+```bash
 npm run dev
+```
 
+---
 
-📬 Connect
+## 📬 Connect  
 
-Madisen Patrick
-🧠 Computer Engineer | 🎓 MBA | 🎥 Creator
+**Madisen Patrick**  
+🧠 Computer Engineer | 🎓 MBA | 🎥 Creator  
 
-A Creative Original by Madisen Patrick”
-Designed, written, and built with code, color, and curiosity.
+💌 Designed, written, and built with code, color, and curiosity.  
+✨ *A Creative Original by Madisen Patrick*  
