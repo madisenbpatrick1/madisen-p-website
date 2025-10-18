@@ -1,5 +1,3 @@
-import React from "react";
-import { useNavigate } from "react-router-dom";
 import { navLinks } from "../../config/navLinks";
 import "./HomeNav.css";
 
@@ -9,7 +7,6 @@ interface HomeNavProps {
 }
 
 export default function HomeNav({ fadeOut, onLinkClick }: HomeNavProps) {
-  const navigate = useNavigate();
 
   const handleClick = (path: string) => {
     onLinkClick(path);
