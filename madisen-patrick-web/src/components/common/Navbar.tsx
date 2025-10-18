@@ -33,13 +33,13 @@ export default function Navbar() {
               </Link>
             </li>
             <li className="nav-item">
-              <Link to="/videos" className="nav-link navbar-link">
-                Videos
+              <Link to="/about_me" className="nav-link navbar-link">
+                About Me
               </Link>
             </li>
             <li className="nav-item">
-              <Link to="/business" className="nav-link navbar-link">
-                Business
+              <Link to="/videos" className="nav-link navbar-link">
+                Videos
               </Link>
             </li>
             <li className="nav-item">
