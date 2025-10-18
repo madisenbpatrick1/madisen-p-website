@@ -7,7 +7,6 @@
   text-align: center;
   transition: opacity 1s ease;
   opacity: 0;
-
 }
 
 .fade-in {
@@ -20,11 +19,15 @@
 }
 
 .blog-title {
-  font-size: 2.8rem;
+  font-size: 2rem;
+  color: #ff3b81;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+  /* font-size: 2.8rem;
   font-weight: 700;
   letter-spacing: 2px;
   color: #ff3b81;
-  text-shadow: 0 0 10px rgba(255, 59, 129, 0.6);
+  text-shadow: 0 0 10px rgba(255, 59, 129, 0.6); */
 }
 
 .blog-subtitle {
@@ -41,7 +44,6 @@
   justify-content: center;
   max-width: 1100px; /* keeps it from stretching full screen */
   margin: 0 auto; /* centers the grid */
-
 }
 /* 2 columns for medium screens */
 @media (min-width: 700px) {
@@ -50,8 +52,7 @@
   }
 }
 
-✅ Cap the number of visible columns to 3
-@media (min-width: 1000px) {
+✅ Cap the number of visible columns to 3 @media (min-width: 1000px) {
   .blog-grid {
     grid-template-columns: repeat(3, 1fr);
   }
