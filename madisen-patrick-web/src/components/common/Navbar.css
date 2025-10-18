@@ -1,24 +1,60 @@
-/* Navbar.css */
+.custom-navbar {
+  background: linear-gradient(135deg, #000000 0%, #2b0011 40%, #ff3b81 100%);
+  transition: background 2s ease;
+  box-shadow: 0 0 15px rgba(255, 59, 129, 0.3);
+  border-bottom: 1px solid rgba(255, 59, 129, 0.2);
+}
 
-/* Hover glow effect */
+.custom-navbar:hover {
+  background: linear-gradient(135deg, #000000 0%, #4d0020 40%, #ff66a5 100%);
+}
+
+.mbp-logo {
+  font-family: "Press Start 2P", monospace;
+  font-size: 1.3rem;
+  letter-spacing: 2px;
+  color: #ff3b81 !important;
+  text-shadow: 0 0 8px rgba(255, 59, 129, 0.6);
+  transition: transform 0.3s ease, text-shadow 0.3s ease;
+}
+
+.mbp-logo:hover {
+  transform: scale(1.05);
+  text-shadow: 0 0 15px rgba(255, 59, 129, 0.9);
+}
+
+/* Navbar links */
 .navbar-link {
-  color: #ffe0e6; /* light pink text */
-  transition: all 0.2s ease-in-out;
+  font-family: "Press Start 2P", monospace;
+  color: #f5f5f5 !important;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+.navbar-link::after {
+  content: "";
+  position: absolute;
+  bottom: -3px;
+  left: 0;
+  width: 0%;
+  height: 2px;
+  background-color: #ff3b81;
+  transition: width 0.3s ease;
+}
+
+.navbar-link:hover::after {
+  width: 100%;
 }
 
 .navbar-link:hover {
-  color: #ff69b4; /* hot pink */
-  text-shadow: 0 0 5px #ff69b4, 0 0 10px #ff69b4, 0 0 20px #ff69b4;
+  color: #ff3b81 !important;
+  text-shadow: 0 0 6px rgba(255, 59, 129, 0.8);
 }
 
-/* Logo hover glow */
-.navbar-brand {
-  color: #ffc0cb; /* soft pink */
-  font-weight: bold;
-  transition: all 0.2s ease-in-out;
-}
-
-.navbar-brand:hover {
-  color: #ff1493; /* deep pink */
-  text-shadow: 0 0 10px #ff1493, 0 0 20px #ff1493, 0 0 30px #ff1493;
+/* Mobile view */
+.navbar-toggler {
+  background-color: #ff3b81;
 }
