@@ -1,46 +1,75 @@
-# Getting Started with Create React App
+# 🌸 MBP Original — Personal Creative Website  
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**A digital home for my creative and technical projects.**  
+Built with React, this site brings together my love for design, storytelling, and code — all wrapped in a retro, cinematic aesthetic inspired by *Architectural Digest* and classic pixel art.  
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🖥️ Overview  
 
-### `npm start`
+MBP Original is a responsive, multi-page React application designed to showcase:  
+- 🎬 **Videos** — Embedded travel and lifestyle content from my YouTube channel  
+- 📝 **Blog** — Book essays and reflections with a magazine-inspired layout  
+- 🧠 **Code** — A space for sharing programming projects and experiments  
+- 💼 **Business** — Creative and professional work highlights  
+- 📸 **Gallery** — A visual showcase of photography and design  
+- 👩🏽‍💻 **About Me** — Interactive overview of who I am and what I create  
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+---
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## ⚙️ Tech Stack  
 
-### `npm test`
+| Category | Tools |
+|-----------|--------|
+| **Frontend Framework** | React (Vite or CRA) |
+| **Language** | TypeScript |
+| **Styling** | CSS3 + custom animations |
+| **Routing** | React Router |
+| **Design Aesthetic** | Retro pixel / pink glow on black theme |
+| **Components** | Reusable hooks (`useFade`), modular components (`Navbar`, Cards, Layouts) |
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## 🧩 Project Structure  
+src/
+┣ assets/ # images, icons, and brand visuals
+┣ components/ # reusable UI components
+┃ ┗ common/ # shared elements like Navbar
+┣ pages/ # main pages (Home, Blog, Videos, AboutMe, etc.)
+┣ hooks/ # custom React hooks (e.g. useFade)
+┣ data/ # static data (blog posts, video lists, etc.)
+┗ App.tsx # main router and layout entry point
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## ✨ Features  
 
-### `npm run eject`
+- Smooth **fade-in/fade-out** transitions across pages  
+- Fully responsive layout with **mobile-friendly navigation**  
+- Cinematic **pink-glow aesthetic** consistent across all pages  
+- Organized using **software engineering principles** (components, hooks, data separation)  
+- Modular and scalable structure for easy feature expansion  
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+---
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 🚀 Getting Started  
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### 1️⃣ Clone the repo  
+```bash
+git clone https://github.com/<your-username>/mbp-original.git
+cd mbp-original
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+### 2 Install Dependencies 
 
-## Learn More
+npm install
+npm run dev
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+📬 Connect
+
+Madisen Patrick
+🧠 Computer Engineer | 🎓 MBA | 🎥 Creator
+
+A Creative Original by Madisen Patrick”
+Designed, written, and built with code, color, and curiosity.
