@@ -8,7 +8,7 @@ import Videos from './pages/YouTubePage/Videos';
 import Business from './pages/BusinessPage/Business';
 import Gallery from './pages/GalleryPage/Gallery';
 import Blog from './pages/BlogPage/Blog';
-import BlogDetail from './pages/BlogPage/BlogDetail';
+import BlogDetail from './pages/BlogDetailPage/BlogDetail';
 import Code from './pages/CodePage/Code';
 import Navbar from "./components/common/Navbar";
 import { HashRouter, Route, Routes } from "react-router-dom";

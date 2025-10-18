@@ -5,8 +5,12 @@
   padding-bottom: 4rem;
   font-family: "Press Start 2P", monospace;
   text-align: center;
-  transition: background 2s ease;
+  transition: opacity 1s ease;
+  opacity: 0;
+}
 
+.fade-in {
+  opacity: 1;
 }
 
 .blog-header {
@@ -36,7 +40,6 @@
   justify-content: center;
   max-width: 1100px; /* keeps it from stretching full screen */
   margin: 0 auto; /* centers the grid */
-
 }
 /* 2 columns for medium screens */
 @media (min-width: 700px) {
@@ -45,7 +48,6 @@
   }
 }
 
-✅ Cap the number of visible columns to 3
 @media (min-width: 1000px) {
   .blog-grid {
     grid-template-columns: repeat(3, 1fr);
