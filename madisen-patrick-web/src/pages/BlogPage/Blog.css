@@ -16,6 +16,7 @@
 .blog-header {
   text-align: center;
   padding: 3rem 1rem 2rem;
+  animation: fadeInUp 1.2s ease both;
 }
 
 .blog-title {
@@ -31,9 +32,31 @@
 }
 
 .blog-subtitle {
-  font-size: 0.8rem;
-  color: #bbb;
+  font-size: 0.85rem;
+  line-height: 1.8;
+  color: rgba(255, 255, 255, 0.75);
+  max-width: 700px;
+  margin: 1.5rem auto 0;
   margin-top: 1rem;
+  text-align: center;
+  letter-spacing: 0.8px;
+
+  /* subtle glassy background feel */
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(6px);
+  border-radius: 10px;
+  padding: 1.2rem 1rem;
+
+  /* glowing border and animation */
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  box-shadow: 0 0 12px rgba(255, 59, 129, 0.15);
+  transition: all 0.4s ease;
+}
+
+.blog-subtitle:hover {
+  color: #fff;
+  background: rgba(255, 255, 255, 0.08);
+  box-shadow: 0 0 16px rgba(255, 59, 129, 0.25);
 }
 
 .blog-grid {

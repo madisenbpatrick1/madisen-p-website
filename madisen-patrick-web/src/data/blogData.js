@@ -2,7 +2,7 @@
 export default [
   {
     id: "parable-of-the-sower",
-    title: "Parable of the Sower by Octavia E. Butler",
+    title: "Parable of the Sower",
     subtitle: "A Vision for Our Future",
     image: "/images/blog/parable-of-the-sower-pic.jpg",
     date:"October 2025",
@@ -19,7 +19,7 @@ export default [
   },
   {
     id: "first-lie-wins",
-    title: "First Lie Wins by Ashley Elston",
+    title: "First Lie Wins",
     subtitle: "The Art of Deception",
     date: "October 2025",
     image: "/images/blog/first-lie-wins-pic.jpg",
