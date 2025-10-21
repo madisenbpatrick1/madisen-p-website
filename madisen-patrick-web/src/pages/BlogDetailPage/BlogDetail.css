@@ -175,7 +175,7 @@
 .back-button {
   text-decoration: none;
   color: white;
-  background: linear-gradient(90deg, #000, #e95b8e);
+  background: black;
   padding: 0.9rem 2rem;
   border-radius: 30px;
   font-weight: 500;

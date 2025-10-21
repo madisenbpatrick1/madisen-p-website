@@ -43,13 +43,13 @@ export default function Navbar() {
               </Link>
             </li>
             <li className="nav-item">
-              <Link to="/gallery" className="nav-link navbar-link">
-                Gallery
+              <Link to="/blog" className="nav-link navbar-link">
+                Blog
               </Link>
             </li>
             <li className="nav-item">
-              <Link to="/blog" className="nav-link navbar-link">
-                Blog
+              <Link to="/gallery" className="nav-link navbar-link">
+                Gallery
               </Link>
             </li>
             <li className="nav-item">
