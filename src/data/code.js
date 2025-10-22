@@ -4,7 +4,7 @@ export default [
         name:"MBP Website",
         description: "A modern portfolio built with React and TypeScript featuring animated transitions and modular design.",
         tech:["React","TypeScript","CSS Modules"],
-        github:"https://github.com/madisenbpatrick1/madisen-p-website/tree/main/madisen-patrick-web",
+        github:"https://github.com/madisenbpatrick1/madisen-p-website",
     },
     {
         name: "Check the Courts App",
