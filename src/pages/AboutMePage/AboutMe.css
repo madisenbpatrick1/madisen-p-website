@@ -196,7 +196,7 @@
     font-size: 1.4rem;
   }
 
-  .about-card h3{
+  .about-card h3 {
     font-size: 1.8rem;
   }
   .about-role,
@@ -207,9 +207,7 @@
   .about-description {
     font-size: 1.4rem;
   }
-
 }
-
 
 /* Small devices (phones in landscape or small tablets) */
 @media (max-width: 768px) {
@@ -270,7 +268,7 @@
     height: 80px;
   }
 
-  .about-card h3{
+  .about-card h3 {
     font-size: 2rem;
   }
   .about-role,
@@ -333,5 +331,15 @@
     width: 70px;
     height: 70px;
   }
-}
+  .about-card h3 {
+    font-size: 1.2rem;
+  }
+  .about-role,
+  .about-years {
+    font-size: 1rem;
+  }
 
+  .about-description {
+    font-size: 1rem;
+  }
+}
