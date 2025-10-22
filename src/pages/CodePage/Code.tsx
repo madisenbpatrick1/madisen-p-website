@@ -5,7 +5,7 @@ import "./Code.css";
 import codeProjectData from "../../data/code";
 
 export default function Code() {
-  const { fadeIn, fadeOut } = useFade();
+  const { fadeIn } = useFade();
 
   return (
     <>
