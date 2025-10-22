@@ -1,12 +1,15 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import './Navbar.css'; // import the CSS file
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+
 
 export default function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark" style={{ backgroundColor: '#000000' }}>
       <div className="container">
-        {/* Logo / Brand */}
+        {/* Logo */}
         <Link to="/" className="mbp-logo fs-3">
           MBP
         </Link>
