@@ -14,13 +14,14 @@
 }
 
 .about-header {
-  text-align: center;
+  text-align: left;
   margin-bottom: 2rem;
 }
 
 .about-name {
   font-size: 5rem;
   color: #ff3b81;
+  margin-left: 0.5rem;
   /* text-shadow: 0 0 20px #ff3b81, 0 0 40px #ff3b81; */
   animation: glowPulse 2s infinite alternate;
 }
@@ -30,6 +31,7 @@
   gap: 2rem;
   width: 100%;
   max-width: 1000px;
+  align-items: flex-start;
 }
 
 .about-sidebar {
@@ -65,6 +67,7 @@
   padding: 2rem;
   box-shadow: 0 0 30px rgba(255, 59, 129, 0.2);
   transition: all 0.5s ease;
+  text-align: left;
 }
 
 .about-section-title {
@@ -99,4 +102,70 @@
   100% {
     text-shadow: 0 0 25px #ff3b81, 0 0 45px #ff3b81;
   }
+}
+
+
+.about-card-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+/* .about-card {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  background: #9e9e9e;
+  border: 1px solid #333;
+  border-radius: 12px;
+  padding: 1rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+} */
+.about-card {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  background: rgba(255, 255, 255, 0.05); 
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 16px;
+  padding: 1.2rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  backdrop-filter: blur(8px); 
+}
+
+
+.about-card:hover {
+  transform: translateY(-4px);
+  /* box-shadow: 0 6px 12px rgba(255, 255, 255, 0.08); */
+  box-shadow: 0 0 20px rgba(255, 59, 129, 0.25);
+
+}
+
+.about-logo {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+  background: #fff; /* gives dark logos contrast */
+  border-radius: 8px;
+  padding: 0.4rem;
+  box-shadow: 0 0 8px rgba(255, 255, 255, 0.2);
+}
+
+.about-card h3 {
+  font-size: 1rem;
+  color: #fff;
+  margin: 0;
+}
+
+.about-role, .about-years {
+  font-size: 1rem;
+  /* color: #ccc; */
+  color: #ff3b81;
+  margin-top: 0.2rem;
+}
+
+.about-description {
+  margin: 0.2rem 0;
+  line-height: 1.4;
 }

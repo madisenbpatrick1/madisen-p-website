@@ -33,7 +33,28 @@ export default function AboutMe() {
 
           <main className="about-details">
             <h2 className="about-section-title">{section?.title}</h2>
-            <p className="about-section-text">{section?.content}</p>
+
+            {/* Default Text Sections */}
+            {section?.content && (
+              <p className="about-section-text">{section.content}</p>
+            )}
+
+            {/* Experience & Education Cards */}
+            {section?.items && (
+              <div className="about-card-grid">
+                {section.items.map((item, index) => (
+                  <div key={index} className="about-card">
+                    <img src={item.logo} alt={("company" in item ? item.company : item.institution) || ""} className="about-logo" />
+                    <div>
+                      <h3>{("company" in item ? item.company : item.institution)}</h3>
+                      <p className="about-role">{"role" in item ? item.role : item.degree}</p>
+                      <p className="about-description">{item.description}</p>
+                      <p className="about-years">{item.years}</p>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            )}
           </main>
         </div>
       </div>

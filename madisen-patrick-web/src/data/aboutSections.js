@@ -10,28 +10,54 @@ const aboutSections = [
   {
     key: "experience",
     title: "Experience",
-    content: `
-        I’ve worked at Apple and Asurion, where I helped drive product solutions and operational excellence. 
-        I’m now focused on combining engineering, design, and business strategy to lead impactful digital projects.
-      `,
+    items: [
+      {
+        logo: "/images/about/Apple-Logo.png",
+        company: "Apple",
+        role: "MBA Intern",
+        description:
+          "Supported device optimization and user education, helping customers integrate Apple technology seamlessly into their daily lives.",
+        years: "Summer 2024",
+      },
+      {
+        logo: "/images/about/asurion-app-logo.jpg",
+        company: "Asurion",
+        role: "Software Engineer Intern",
+        description:
+          "Led repairs and diagnostics for mobile devices, improving service turnaround and customer satisfaction.",
+        years: "2021 – 2023",
+      },
+      {
+        logo: "/images/about/UVA_Cavaliers_logo.png",
+        company: "University of Virginia",
+        role: "Math of Information Teaching Assistant",
+        description:
+          "Led repairs and diagnostics for mobile devices, improving service turnaround and customer satisfaction.",
+        years: "2021 – 2023",
+      },
+    ],
   },
   {
     key: "education",
     title: "Education",
-    content: `
-        • B.S. in Computer Engineering  
-        • MBA, Class of 2025  
-        My studies focused on technology management, product design, and supply chain systems.
-      `,
-  },
-  {
-    key: "funfacts",
-    title: "Fun Facts",
-    content: `
-        • I love cinematography and photography.  
-        • My favorite creative tool is the Sony ZV-E10.  
-        • I’m currently building a full-stack basketball app and exploring hybrid athlete training.
-      `,
+    items: [
+      {
+        logo: "/images/about/NU_RGB_seal_R.png",
+        institution: "Northeastern University",
+        degree: "Master of Business Administration (MBA)",
+        description:
+          "Concentration on Technology Management, Supply Chain & Operations Management.",
+        years: "2023-2025",
+      },
+      {
+        logo: "/images/about/UVA_Cavaliers_logo.png",
+        institution: "University of Virginia",
+        degree: "B.S. in Computer Engineering, Minor in Business",
+        description:
+          "Concentration in embedded systems and software development. Graduated with Honors.",
+        years: "2019-2023",
+      },
+    ],
   },
   {
     key: "contactMe",
