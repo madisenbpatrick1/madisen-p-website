@@ -64,8 +64,7 @@ const aboutSections = [
     title: "Contact Me",
     content: `
             Email: madisen.bpatrick@gmail.com  
-            LinkedIn:
-            Socials
+            LinkedIn: https://www.linkedin.com/in/madisen-patrick-238686195/
         `,
   },
 ];
