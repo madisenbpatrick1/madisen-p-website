@@ -7,6 +7,7 @@ export default [
     image: "/images/blog/parable-of-the-sower-pic.jpg",
     date: "October 2025",
     cover: "/images/blog/parable-of-the-sower-cover.jpg",
+    pdf:"/documents/Between the Lines - Parable of the Sower.pdf",
     snippet:
       "In Octavia E. Butler’s novel, a young woman with “hyperempathy” navigates a collapsing America and creates a new belief system that teaches survival through change.",
     content: `
@@ -48,6 +49,7 @@ export default [
     date: "October 2025",
     image: "/images/blog/parable-of-the-talents-pic.jpg",
     cover: "/images/blog/parable-of-the-talents-cover.jpg",
+    pdf:"",
     snippet:
       "Reading in progress...",
     content: `

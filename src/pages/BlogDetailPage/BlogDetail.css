@@ -205,3 +205,26 @@
     margin: 0 auto;
   }
 }
+
+.pdf-link-container {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.pdf-download-link {
+  display: inline-block;
+  padding: 0.7rem 1.2rem;
+  color: rgba(255, 59, 129, 1);
+  font-weight: 500;
+  border: 1px solid rgba(255, 59, 129, 1);
+  border-radius: 8px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.pdf-download-link:hover {
+  background-color: rgba(255, 59, 129, 1);
+  color: #000;
+  transform: scale(1.03);
+}
+

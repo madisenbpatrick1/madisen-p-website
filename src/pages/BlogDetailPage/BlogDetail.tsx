@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React, { useState } from "react";
 import { useParams, Link } from "react-router-dom";
 import Navbar from "../../components/common/Navbar";
 import blogData from "../../data/blogData";
@@ -11,7 +11,7 @@ export default function BlogDetail() {
 
   if (!blog) return <p>Blog not found.</p>;
 
-  const toggleAnswer = (index:number) => {
+  const toggleAnswer = (index: number) => {
     setActiveIndex(activeIndex === index ? undefined : index);
   };
 
@@ -25,7 +25,7 @@ export default function BlogDetail() {
           {blog.date && <p className="blog-detail-date">{blog.date}</p>}
         </div>
       </section>
-  
+
 
       {/* Magazine Layout */}
       <section className="blog-magazine-layout">
@@ -39,7 +39,7 @@ export default function BlogDetail() {
             {/* <p className="essay-body">{blog.content}</p> */}
           </div>
           <div className="qa-container">
-          {blog.qaList?.map((item, index) => (
+            {blog.qaList?.map((item, index) => (
               <div key={index} className="qa-item">
                 <button
                   className={`qa-question ${activeIndex === index ? "active" : ""}`}
@@ -56,8 +56,22 @@ export default function BlogDetail() {
           <div className="back-btn-container">
             <Link to="/blog" className="back-button">← Back to Blog</Link>
           </div>
+          {blog.pdf && (
+            <div className="pdf-link-container">
+              <a
+                href={blog.pdf}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="pdf-download-link"
+              >
+                📄 View Full Essay (PDF)
+              </a>
+            </div>
+          )}
+
         </div>
       </section>
+
     </>
   );
 }
