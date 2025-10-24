@@ -4,6 +4,8 @@ import Navbar from "../../components/common/Navbar";
 import blogData from "../../data/blogData";
 import "./BlogDetail.css";
 
+//TODO: Update Blog answers and update pdf file once doc completed 
+//TODO: Fix small bug for answers on mobile device view 
 export default function BlogDetail() {
   const { id } = useParams();
   const blog = blogData.find((b) => b.id === id);
