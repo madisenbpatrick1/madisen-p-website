@@ -155,11 +155,13 @@
   padding: 0 1.5rem;
   line-height: 1.7;
   font-size: 1rem;
+  text-align: left;
 }
 
 .qa-answer.show {
   max-height: 1000px;
   padding: 1.5rem;
+  opacity: 1;
 }
 
 .qa-question.active {

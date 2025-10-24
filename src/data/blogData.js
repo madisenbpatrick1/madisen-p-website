@@ -20,26 +20,21 @@ export default [
       {
         question:
           "Lauren Olamina has hyperempathy syndrome, causing her to feel the pain and pleasure of others. How does her mother’s drug use and this inherited condition shape who she is, set her apart, and influence the story’s meaning?",
-        answer: `Most drug abusers, I believe use substances to feel less, to numb pain, sadness, or harsh reality. Lauren’s mother use of Paracetco, the so called “Einstein powder” (pg. 12) inverts the conventional motive of drug abuse. Rather than numbing pain, Paracetco was designed to heighten cognition, an artificial attempted at enlightenment amid social decay. Butler’s choice to link Lauren’s condition to this “smart drug” underscores the irony of a society that seeks knowledge yet forfeits authentic understanding. Lauren’s inherited empathy thus becomes the unintended consequence of her mother’s intellectual ambition: a return to emotional truth born from the failure of artificial intelligence. 
+        answer: `Most drug abusers, I believe, use substances to numb pain or reality, but Lauren’s mother’s use of Paracetco, the “Einstein powder” (pg. 12), reverses that motive. Designed to heighten cognition, the drug reflects a society chasing artificial enlightenment while losing genuine understanding. Lauren’s inherited hyperempathy becomes the ironic result of that pursuit: a forced return to emotional truth born from synthetic ambition. In a desensitized world, her ability to feel others’ pain and pleasure marks her as both vulnerable and morally awake. She hides her condition, knowing empathy invites exploitation in a world that rewards detachment, yet her suffering becomes the seed of transformation. Through it, she forms Earthseed, a philosophy rooted in change and compassion. Butler ultimately redefines intelligence through Lauren, not as heightened intellect, but as the courage to feel deeply and act with empathy in a world that has forgotten how.
 
-Lauren’s hyperempathy distinguishes her within a desensitized and deteriorating world. While others have become numb to violence and suffering, she remains acutely attuned to human pain and pleasure. This capacity for feeling, both agonizing and redemptive, embodies the novel’s moral tension between numb survival and compassionate awareness. In a society stripped of empathy, Lauren’s sensitivity is paradoxically her most human and most dangerous trait, positioning her as both outcast and moral compass.
-
-Lauren conceals her syndrome because empathy, in her brutalized society, equates to vulnerability. Those who can feel another’s suffering are easily manipulated, as Lauren realizes through her conversation with Emery about the exploitation of “sharers.” To reveal her condition would invite control and endanger her survival. Her father’s insistence on secrecy reflects the novel’s grim realism: compassion, when unguarded, becomes a liability in a world governed by cruelty.
-
-Ultimately, Lauren’s hyperempathy transforms from affliction to instrument of rebirth. Through the pain she absorbs, she perceives humanity’s collective anguish and channels it into the creation of Earthseed, a philosophy grounded in adaptation, change, and communal care. Butler redefines intelligence through Lauren, not as synthetic enhancement, but as emotional acuity and moral vision. What begins as inherited weakness evolves into spiritual leadership, suggesting that true wisdom arises not from detachment but from the capacity to feel deeply and act compassionately.
 `,
       },
-      {
-        question: "2.	Earthseed can be described as a “cold” religion since it has such an impersonal god. Is there anything about it that you think could be described as comforting? Or liberating? Do you believe God has a consciousness? Is a thinking being? Or is Earthseed a system of beliefs that appeal to you? What are your feelings about religion?",
-        answer: `This question invites reflection on faith, structure, and freedom.
-        You could discuss whether an impersonal God feels more liberating than comforting.`,
-      },
-      {
-        question:
-          "3.	Do you agree or disagree that this is a possible future for America? In terms of government and societal stability as well as future technological advancements, in what ways do you believe America will change in the next two decades? Do you think things will be better or worse than they are now? ",
-        answer: `Here, you could connect Butler’s vision to real-world parallels — climate, inequality, and governance.
-        Encourage readers to think about how technology and empathy intersect in our own world.`,
-      },
+      // {
+      //   question: "2.	Earthseed can be described as a “cold” religion since it has such an impersonal god. Is there anything about it that you think could be described as comforting? Or liberating? Do you believe God has a consciousness? Is a thinking being? Or is Earthseed a system of beliefs that appeal to you? What are your feelings about religion?",
+      //   answer: `This question invites reflection on faith, structure, and freedom.
+      //   You could discuss whether an impersonal God feels more liberating than comforting.`,
+      // },
+      // {
+      //   question:
+      //     "3.	Do you agree or disagree that this is a possible future for America? In terms of government and societal stability as well as future technological advancements, in what ways do you believe America will change in the next two decades? Do you think things will be better or worse than they are now? ",
+      //   answer: `Here, you could connect Butler’s vision to real-world parallels — climate, inequality, and governance.
+      //   Encourage readers to think about how technology and empathy intersect in our own world.`,
+      // },
       {
         question: "4. What lessons do you feel you took away from the novel?",
         answer: `A closing reflection — you might highlight how empathy, adaptability, and community form the true antidote to chaos.`,
