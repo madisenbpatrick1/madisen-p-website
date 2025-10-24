@@ -57,7 +57,7 @@ export default function Navbar() {
             </li>
             <li className="nav-item">
               <Link to="/code" className="nav-link navbar-link">
-                CS Code
+                Code
               </Link>
             </li>
           </ul>

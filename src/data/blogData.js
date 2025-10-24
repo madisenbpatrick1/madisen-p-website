@@ -8,7 +8,7 @@ export default [
     date: "October 2025",
     cover: "/images/blog/parable-of-the-sower-cover.jpg",
     snippet:
-      "Exploring how generational stories shape identity and resilience...",
+      "In Octavia E. Butler’s novel, a young woman with “hyperempathy” navigates a collapsing America and creates a new belief system that teaches survival through change.",
     content: `
         Octavia E. Butler's "Parable of the Sower" presents a chilling vision of a dystopian future
         shaped by climate change, social collapse, and economic disparity. Through the eyes of Lauren
@@ -19,7 +19,7 @@ export default [
     qaList: [
       {
         question:
-          "Do you think it is significant that this is a congenital disease she contracted because her mother was a drug abuser? How has this illness made Lauren different from those around her? What was she unable to tell anyone about it? Why do you suppose it is significant to the story that she has this illness?",
+          "Lauren Olamina has hyperempathy syndrome, causing her to feel the pain and pleasure of others. How does her mother’s drug use and this inherited condition shape who she is, set her apart, and influence the story’s meaning?",
         answer: `Most drug abusers, I believe use substances to feel less, to numb pain, sadness, or harsh reality. Lauren’s mother use of Paracetco, the so called “Einstein powder” (pg. 12) inverts the conventional motive of drug abuse. Rather than numbing pain, Paracetco was designed to heighten cognition, an artificial attempted at enlightenment amid social decay. Butler’s choice to link Lauren’s condition to this “smart drug” underscores the irony of a society that seeks knowledge yet forfeits authentic understanding. Lauren’s inherited empathy thus becomes the unintended consequence of her mother’s intellectual ambition: a return to emotional truth born from the failure of artificial intelligence. 
 
 Lauren’s hyperempathy distinguishes her within a desensitized and deteriorating world. While others have become numb to violence and suffering, she remains acutely attuned to human pain and pleasure. This capacity for feeling, both agonizing and redemptive, embodies the novel’s moral tension between numb survival and compassionate awareness. In a society stripped of empathy, Lauren’s sensitivity is paradoxically her most human and most dangerous trait, positioning her as both outcast and moral compass.
@@ -49,14 +49,14 @@ Ultimately, Lauren’s hyperempathy transforms from affliction to instrument of 
   {
     id: "parable-of-the-talents",
     title: "Parable of the Talents",
-    subtitle: "The Art of Deception",
+    subtitle: "Coming Soon...",
     date: "October 2025",
     image: "/images/blog/parable-of-the-talents-pic.jpg",
     cover: "/images/blog/parable-of-the-talents-cover.jpg",
     snippet:
-      "Thriller novel that delves into the psychology of deceit and trust...",
+      "Reading in progress...",
     content: `
-        "First Lie Wins" is a gripping thriller that explores the intricate dance of deception and trust.
+        Reading in progress...
       `,
   },
 ];

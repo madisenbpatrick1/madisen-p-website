@@ -17,7 +17,7 @@ export default function Blog() {
         <div className={`blog-page ${fadeIn ? "fade-in" : ""} ${fadeOut ? "fade-up" : ""}`}>
           <header className="blog-header">
             <h1 className="blog-title">Between the Lines: Essays and Reflections </h1>
-            <p className="blog-subtitle">This collection marks my return to reading and writing with purpose—treating every book as a chance to think deeply, stay engaged, and rediscover the joy of comprehension. These essays capture my reflections on the novels I’ve read and the lessons they’ve left behind.
+            <p className="blog-subtitle">This collection is my return to reading and writing with purpose—reflecting on each book as a chance to think deeply and rediscover the joy of comprehension.
             </p>
           </header>
 

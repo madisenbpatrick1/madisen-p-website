@@ -3,8 +3,7 @@ const aboutSections = [
     key: "overview",
     title: "Overview",
     content: `
-        I'm Madisen Patrick — a Computer Engineer and MBA graduate passionate about building innovative, human-centered digital experiences. 
-        My work blends creativity, technology, and strategy, reflecting a strong commitment to design and storytelling.
+        I'm Madisen — a MBA graduate and Computer Engineer with a strong foundation in software systems, data analytics, and product development Skilled at bridging technical expertise with business strategy to design, build, and scale performance driven solutions. Passionate about applying engineering skills to team oriented environments. 
       `,
   },
   {
@@ -16,24 +15,24 @@ const aboutSections = [
         company: "Apple",
         role: "MBA Intern",
         description:
-          "Supported device optimization and user education, helping customers integrate Apple technology seamlessly into their daily lives.",
-        years: "Summer 2024",
+          "Conducted user research and analysis to identify pain points, delivering actionable recommendations that improved site usability and technician satisfaction.",
+        years: "4 months",
       },
       {
         logo: "/images/about/asurion-app-logo.jpg",
         company: "Asurion",
         role: "Software Engineer Intern",
         description:
-          "Led repairs and diagnostics for mobile devices, improving service turnaround and customer satisfaction.",
-        years: "2021 – 2023",
+          "Developed modular, reusable, and well tested code in NodeJS and Typescript for 5 different mobile applications currently being used by thousands daily. Engaged with product managers, UX designers, and software engineers in an agile work environment. Took initiative on 3 projected by holding technical design meetings and leading code reviews.",
+        years: "2 years",
       },
       {
         logo: "/images/about/UVA_Cavaliers_logo.png",
         company: "University of Virginia",
         role: "Math of Information Teaching Assistant",
         description:
-          "Led repairs and diagnostics for mobile devices, improving service turnaround and customer satisfaction.",
-        years: "2021 – 2023",
+          "Assisted with teaching Mathematics Information and Applied Equations, including lectures and review sessions. Communicated effectively with faculty and other teaching assistants about student progress and consulted with the professor in creating assignments, organizing examinations, and grading assignments",
+        years: "2 years",
       },
     ],
   },
@@ -47,7 +46,7 @@ const aboutSections = [
         degree: "Master of Business Administration (MBA)",
         description:
           "Concentration on Technology Management, Supply Chain & Operations Management.",
-        years: "2023-2025",
+        years: "Leader of Supply Chain Competition Team. Secretary of Black MBA Association.",
       },
       {
         logo: "/images/about/UVA_Cavaliers_logo.png",
@@ -55,7 +54,7 @@ const aboutSections = [
         degree: "B.S. in Computer Engineering, Minor in Business",
         description:
           "Concentration in embedded systems and software development. Graduated with Honors.",
-        years: "2019-2023",
+        years: "NCAA Division I Women's Lacrosse Student-Athlete. Active in the National Society of Black Engineers (NSBE) and Society of Women Engineers (SWE).",
       },
     ],
   },
