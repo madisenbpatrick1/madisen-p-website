@@ -35,9 +35,19 @@ export default function AboutMe() {
             <h2 className="about-section-title">{section?.title}</h2>
 
             {/* Default Text Sections */}
-            {section?.content && (
-              <p className="about-section-text">{section.content}</p>
+            {section?.key === "contactMe" ? (
+              <div className="contact-links">
+                <a href="mailto:madisen.bpatrick@gmail.com" className="contact-link" target="_blank" rel="noopener noreferrer">
+                  📧 madisen.bpatrick@gmail.com
+                </a>
+                <a href="https://www.linkedin.com/in/madisen-patrick-238686195/" className="contact-link" target="_blank" rel="noopener noreferrer">
+                  💼 LinkedIn Profile
+                </a>
+              </div>
+            ) : (
+              section?.content && <p className="about-section-text">{section.content}</p>
             )}
+
 
             {/* Experience & Education Cards */}
             {section?.items && (
