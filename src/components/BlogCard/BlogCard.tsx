@@ -5,13 +5,14 @@ import "./BlogCard.css";
 interface BlogCardProps {
   id: string;
   title: string;
+  subtitle: string;
   snippet: string;
   image: string;
   fadeOut?: boolean;
   delay?: number;
 }
 
-export default function BlogCard({ id, title, snippet, image, fadeOut, delay = 0 }: BlogCardProps) {
+export default function BlogCard({ id, title, subtitle, snippet, image, fadeOut, delay = 0 }: BlogCardProps) {
   return (
     <Link
       to={`/blog/${id}`}

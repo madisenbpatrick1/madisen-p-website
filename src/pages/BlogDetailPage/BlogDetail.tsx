@@ -1,21 +1,26 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { useParams, Link } from "react-router-dom";
 import Navbar from "../../components/common/Navbar";
 import blogData from "../../data/blogData";
 import "./BlogDetail.css";
+import ReactMarkdown from "react-markdown";
 
 //TODO: Update Blog answers and update pdf file once doc completed 
-//TODO: Fix small bug for answers on mobile device view 
 export default function BlogDetail() {
   const { id } = useParams();
   const blog = blogData.find((b) => b.id === id);
-  const [activeIndex, setActiveIndex] = useState<number | undefined>(undefined);
+  const [markdownContent, setMarkdownContent] = useState<string>("");
+
+  useEffect(() => {
+    if (blog?.markdown) {
+      fetch(blog.markdown)
+        .then((res) => res.text())
+        .then((text) => setMarkdownContent(text))
+        .catch((err) => console.error("Error loading markdown:", err));
+    }
+  }, [blog]);
 
   if (!blog) return <p>Blog not found.</p>;
-
-  const toggleAnswer = (index: number) => {
-    setActiveIndex(activeIndex === index ? undefined : index);
-  };
 
   return (
     <>
@@ -37,24 +42,15 @@ export default function BlogDetail() {
 
         <div className="magazine-text">
           <div className="magazine-essay">
-            <h2 className="essay-heading">{blog.subtitle || "Essay"}</h2>
-            {/* <p className="essay-body">{blog.content}</p> */}
+          
+            <div className="essay-body">
+              <ReactMarkdown>
+                {markdownContent}
+              </ReactMarkdown>
+            </div>
+          
           </div>
-          <div className="qa-container">
-            {blog.qaList?.map((item, index) => (
-              <div key={index} className="qa-item">
-                <button
-                  className={`qa-question ${activeIndex === index ? "active" : ""}`}
-                  onClick={() => toggleAnswer(index)}
-                >
-                  {item.question}
-                </button>
-                <div className={`qa-answer ${activeIndex === index ? "show" : ""}`}>
-                  <p>{item.answer}</p>
-                </div>
-              </div>
-            ))}
-          </div>
+          
           <div className="back-btn-container">
             <Link to="/blog" className="back-button">← Back to Blog</Link>
           </div>

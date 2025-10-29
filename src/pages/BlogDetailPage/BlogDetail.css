@@ -98,75 +98,42 @@
 }
 
 .essay-body {
-  line-height: 1.9;
-  font-size: 1.1rem;
-  color: #1a1a1a;
-  background: #fff;
-  padding: 2rem;
-  border-radius: 14px;
-  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.06);
-  text-align: justify;
-}
-
-.qa-container {
-  display: flex;
-  flex-direction: column;
-  gap: 1.5rem;
-}
-
-.qa-item {
-  background: rgba(0, 0, 0, 0.6);
-  border: 2px solid rgba(255, 59, 129, 0.5);
-  border-radius: 12px;
-  overflow: hidden;
-  box-shadow: 0 0 10px rgba(255, 59, 129, 0.3);
-  transition: all 0.3s ease;
-}
-
-.qa-item:hover {
-  box-shadow: 0 0 25px rgba(255, 59, 129, 0.6);
-}
-
-.qa-question {
-  width: 100%;
-  background: none;
-  border: none;
-  color: #ff3b81;
-  font-family: "Press Start 2P", monospace;
-  text-align: left;
-  padding: 1rem 1.5rem;
-  font-size: 0.85rem;
-  cursor: pointer;
-  text-shadow: 0 0 8px rgba(255, 59, 129, 0.8);
-  transition: color 0.3s ease;
-}
-
-.qa-question:hover {
-  color: #fff;
-}
-
-.qa-answer {
-  max-height: 0;
-  /* overflow: hidden; */
-  transition: all 0.6s ease;
   background: rgba(255, 255, 255, 0.1);
+  border-radius: 14px;
   color: #fff;
   font-family: "Inter", sans-serif;
-  padding: 0 1.5rem;
-  line-height: 1.7;
+  padding: 0.5rem 1.5rem;
+  line-height: 1.8;
   font-size: 1rem;
   text-align: left;
 }
 
-.qa-answer.show {
-  max-height: 1000px;
-  padding: 1.5rem;
-  opacity: 1;
+.essay-body h3 {
+  font-size: 1.2 rem;
+  margin-top: 2rem;
+  margin-bottom: 0.75rem;
 }
 
-.qa-question.active {
-  color: #fff;
-  text-shadow: 0 0 15px rgba(255, 59, 129, 1);
+.essay-body p {
+  margin-bottom: 1.5rem;
+  text-align: left;
+  font-size: 1rem;
+}
+
+.essay-body blockquote {
+  border-left: 4px solid white;
+  padding-left: 1rem;
+  font-style: italic;
+  border-radius: 4px;
+  color: white;
+  position: center;
+}
+
+.essay-body hr {
+  border: none;
+  height: 2px;
+  background: rgba(255, 59, 129, 0.7);;
+  border-radius: 2px;
 }
 
 /* --- Back Button --- */
@@ -227,4 +194,3 @@
   color: #000;
   transform: scale(1.03);
 }
-

@@ -27,6 +27,7 @@ export default function Blog() {
                 key={blog.id}
                 id={blog.id}
                 title={blog.title}
+                subtitle={blog.subtitle}
                 snippet={blog.snippet}
                 image={blog.image}
                 fadeOut={fadeOut}
